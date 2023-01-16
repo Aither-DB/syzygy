@@ -1,0 +1,69 @@
+/*
+Theme Name: syzygy
+Theme URI: https://wordpress.org/themes/syzygy
+Author: Daniel Brasher
+Author URI: https://www.syzygyleads.com
+Description: Custom wordpress theme for Syzygy Leads.
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, accessibility-ready
+*/
+
+* {
+}
+
+
+
+.gradient-bg {
+
+/* This is a style for the header */
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    text-align: center;
+
+}
+
+.main-custom-nav {
+
+    /* This is the navbar style */
+
+    border-radius: 0;
+}
+
+.main-custom-nav .navbar-brand {
+    color: white;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    }
+    
+.navbar-default .navbar-nav>li>a:hover {
+    color: gray;
+}
+
+.margin-neg-20 {
+    margin-top: -20px;
+
+}
+
+.navbar-default {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-toggle .icon-bar {
+    color: white;
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
